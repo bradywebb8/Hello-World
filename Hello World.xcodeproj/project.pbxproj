@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		07B265AB22013F3800BA8EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B265AA22013F3800BA8EF5 /* AppDelegate.swift */; };
-		07B265AD22013F3800BA8EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B265AC22013F3800BA8EF5 /* ViewController.swift */; };
 		07B265B022013F3800BA8EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B265AE22013F3800BA8EF5 /* Main.storyboard */; };
 		07B265B322013F3800BA8EF5 /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07B265B122013F3800BA8EF5 /* Hello_World.xcdatamodeld */; };
 		07B265B522013F3900BA8EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B265B422013F3900BA8EF5 /* Assets.xcassets */; };
 		07B265B822013F3900BA8EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B265B622013F3900BA8EF5 /* LaunchScreen.storyboard */; };
 		07B265C322013F3900BA8EF5 /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B265C222013F3900BA8EF5 /* Hello_WorldTests.swift */; };
 		07B265CE22013F3900BA8EF5 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B265CD22013F3900BA8EF5 /* Hello_WorldUITests.swift */; };
+		07B265DC2201516400BA8EF5 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B265DB2201516400BA8EF5 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		07B265A722013F3800BA8EF5 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B265AA22013F3800BA8EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07B265AC22013F3800BA8EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07B265AF22013F3800BA8EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07B265B222013F3800BA8EF5 /* Hello_World.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hello_World.xcdatamodel; sourceTree = "<group>"; };
 		07B265B422013F3900BA8EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		07B265C922013F3900BA8EF5 /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B265CD22013F3900BA8EF5 /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		07B265CF22013F3900BA8EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B265DB2201516400BA8EF5 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				07B265AA22013F3800BA8EF5 /* AppDelegate.swift */,
-				07B265AC22013F3800BA8EF5 /* ViewController.swift */,
 				07B265AE22013F3800BA8EF5 /* Main.storyboard */,
+				07B265DB2201516400BA8EF5 /* HelloWorldViewController.swift */,
 				07B265B422013F3900BA8EF5 /* Assets.xcassets */,
 				07B265B622013F3900BA8EF5 /* LaunchScreen.storyboard */,
 				07B265B922013F3900BA8EF5 /* Info.plist */,
@@ -260,8 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B265B322013F3800BA8EF5 /* Hello_World.xcdatamodeld in Sources */,
-				07B265AD22013F3800BA8EF5 /* ViewController.swift in Sources */,
 				07B265AB22013F3800BA8EF5 /* AppDelegate.swift in Sources */,
+				07B265DC2201516400BA8EF5 /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
